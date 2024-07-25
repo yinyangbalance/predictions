@@ -1,0 +1,12 @@
+@keyframes glow {
+    0% { text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5); }
+    50% { text-shadow: 0 0 20px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 0.7); }
+    100% { text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5); }
+}
+
+.fancy-math {
+    font-size: 3em;
+    color: #00f;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5);
+    animation: glow 1.5s infinite;
+}
